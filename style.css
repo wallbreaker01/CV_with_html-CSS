@@ -31,6 +31,7 @@ a{
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--text-color);
+    text-align: justify;
 }
 .title{
     color: var(--primary-color);
@@ -112,6 +113,9 @@ a{
 }
 .profile_profileImg{
     max-width: 250px;
+}
+.profile_profileImg img{
+    border-radius: 50%;
 }
 .profile_name_firstName{
     color: white;
@@ -196,7 +200,7 @@ a{
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-    
+
 }
 .interest_item{
     font-size: 1.5rem;
